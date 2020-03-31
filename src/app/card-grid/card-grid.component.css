@@ -1,0 +1,38 @@
+button{
+        background-color:#4d004d ; 
+        border-radius:10px;
+        width: 150px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+#btndiv
+{
+    text-align: center;
+}
+
+    button:hover{
+        background-color: #ffff80;
+        color:#4d0026;
+    }   
+
+    #ga
+    {
+ background-image: url('./.././../assets/images/welcome1_background.jpg') ; 
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px; 
+bottom: 0px;
+    }    

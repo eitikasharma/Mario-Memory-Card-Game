@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.grid {
+	max-width: 960px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	-webkit-box-pack: space-evenly;
+		-ms-flex-pack: space-evenly;
+  }
+  
+  .card {
+	position: relative;
+	-webkit-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+	-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+	margin: 3px;
+  }
+  
+  .card,
+  .back,
+  .front {
+	height: 150px;
+	width: 150px;
+  }
+  
+  .back,
+  .front {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+  }
+  
+  .front {
+	background: #FAB942 url('./assets/images/giphy.gif') no-repeat center center / contain;
+  }
+  
+  .back {
+	-webkit-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+	background-color: transparent;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+  }
+  .btn{
+      background-color: #FAB942;
+  }
+  .selected {
+	-webkit-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+  }
+  
+  .match .front {
+	background: transparent !important;
+  }

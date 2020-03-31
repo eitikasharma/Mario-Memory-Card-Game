@@ -1,0 +1,74 @@
+
+h1
+{
+    color: #99004d;
+    font-size:35px;
+    font-family:sans-serif;
+    font-weight: bolder;    
+    padding-top: 25px;  
+    padding-left: 30px;
+    text-align: center;
+}
+#wlcm
+{
+background-image: url('./.././../assets/images/welcome2_background.jpg') ; 
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height:800px;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+}
+
+
+#instructions_div{
+    margin-top: 1vw;
+     background: rgba(221, 218, 218, 0.6);  
+    position: absolute;
+    padding: 1vw;
+    left: 30vw;
+    right: 30vw;
+    text-align: center;
+    }
+        H2{
+            font-size:30px;
+            font-family:sans-serif;
+            color: #391439;
+            margin-left:20px;
+            text-align: center;   
+        }      
+        h3{
+            font-size:25px;
+            font-family:sans-serif;
+            color: #391439;
+            text-align: center;
+        } 
+    ol{
+            font-size:20px;
+            font-family:sans-serif;
+            font-weight: bold;
+            line-height: 30px;
+            color:  #391439;
+
+            text-align: left;
+    }
+    button{
+        background-color:#4d004d ; 
+        border-radius:10px;
+        width: 150px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    button:hover{
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.24);
+    } 
